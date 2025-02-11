@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dark Mode */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.results {
+  margin-top: 1.5rem;
+}
+
+h2, h3 {
+  margin-bottom: 1rem;
+}
+
+#passwords {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: monospace;
+  text-align: left;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+#passwords div {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  font-family: monospace;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}

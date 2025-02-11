@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Security Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Security Calculator</h1>
+    <div class="input-group">
+      <label for="length">Length of Code:</label>
+      <input type="number" id="length" min="1" placeholder="Enter length">
+    </div>
+    <div class="input-group">
+      <label for="range">Range of Code:</label>
+      <input type="text" id="range" placeholder="Enter unique characters">
+    </div>
+    <div class="results">
+      <h2 id="likelihood">Likelihood of Correct Guess: 0%</h2>
+      <h3>Possible Passwords:</h3>
+      <div id="passwords"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
